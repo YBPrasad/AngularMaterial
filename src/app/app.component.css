@@ -1,0 +1,58 @@
+mat-grid-tile{
+    background: aqua;
+}
+
+mat-sidenav{
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background-color: #002b5c;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+
+.content{
+    height: calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color:lightgray
+}
+
+mat-sidenav-container{
+    height: calc(100vh - 65px);
+}
+.menu-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+
+    
+}
+
+.menu-button mat-icon{
+    margin-right: 8px;
+}
+mat-divider{
+    background-color: whitesmoke;
+}
+img{
+    border-radius: 20px;
+}
+.name{
+    margin: 0;
+    font-weight: normal;
+}
+.designation{
+    font-size: 0.7rem;
+    color: lightgray;
+}
+
